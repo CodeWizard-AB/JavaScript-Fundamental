@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Practice</title>
+    <link rel="shortcut icon" href="JavaScript-logo.png" type="image/x-icon">
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      font-family: sans-serif;
+      font-size: 3rem;
+      color: #e9ecef;
+    }
+
+    body {
+      height: 100vh;
+      display: grid;
+      place-items: center;
+      background: #8360c3;
+      background: linear-gradient(to right top, #2ebf91, #8360c3);
+      background-repeat: no-repeat;
+    }
+
+    button {
+      cursor: pointer;
+      border: none;
+      background-color: #cc5de8;
+      font-size: 1.6rem;
+      padding: 1rem 3rem;
+      border-radius: 5px;
+      font-weight: 600;
+      color: #495057;
+      box-shadow: 0 5px 5px rgba(0, 0, 0, 0.316);
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 5rem;
+    }
+
+    #container {
+      width: 400px;
+      height: 400px;
+      position: relative;
+      background: yellow;
+    }
+
+    #animate {
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      background-color: red;
+    }
+  </style>
+  <body>
+    <h1 id="heading" class="heading">Document Object Model</h1>
+
+    <div class="buttons">
+      <button type="button" class="btn" id="button">Button</button>
+      <button type="button" class="btn btn-color">Color change</button>
+    </div>
+
+    <h1 class="js-header" id="demo">JavaScript Practice</h1>
+    <h2>Heading Second</h2>
+
+    <div id="container">
+      <div id="animate"></div>
+    </div>
+
+    <p class="demo"></p>
+    <script defer src="practice.js"></script>
+  </body>
+</html>
