@@ -1655,5 +1655,9 @@ setInterval(function () {
   const now = new Date();
   const hour = now.getHours();
   const minute = now.getMinutes();
-  const second = now.getSeconds()
+  const second = now.getSeconds();
+}, 1000);
+
+setTimeout(() => {
+  console.log("Downloading picture");
 }, 1000);
